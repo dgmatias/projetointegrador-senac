@@ -20,17 +20,21 @@
 
 h1 {
     font-size: 45px;
+    color: white;
 }
 
 h2 {
     font-size: 40px;
+    color: white;
 }
 
 button {
     background-color: transparent;
+    border: 1px solid white;
     border-radius: 30px;
-    font-size: 33px;
+    font-size: 30px;
     cursor: pointer;
+    color: white;
 }
 
 button:hover {
@@ -45,9 +49,11 @@ button:hover {
 
 i {
     margin-right: 5px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 50px;
 }
 
 .circle-selected {
     background-color: white;
-    border-radius: 50px;
 }
