@@ -57,3 +57,20 @@ i {
 .circle-selected {
     background-color: white;
 }
+
+@media screen and (max-width: 768px) {
+
+    h2 {
+        font-size: 28;
+    }
+
+    h1 {
+        font-size: 24;
+    }
+
+    button  {
+        font-size: 20;
+    }
+
+
+}

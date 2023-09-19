@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class CarrosselComponent {
 
+  constructor() {}
+
+  alterarImagem() {
+    setInterval(()=>{
+      console.log("A imagem foi alterada");
+    }, 5000)
+  }
+
+  ngOnInit() {
+
+    this.alterarImagem();
+
+  }
+
 }

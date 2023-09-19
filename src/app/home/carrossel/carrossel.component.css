@@ -22,3 +22,9 @@
 .opacity {
     position: relative; /* Certifique-se de que a .opacity esteja na frente da ::before */
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        background-image: url(../../../assets/matue.jpeg);   
+    }
+}
