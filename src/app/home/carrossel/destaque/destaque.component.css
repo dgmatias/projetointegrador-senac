@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Mallanna&display=swap');
+
+.container {
+    background-color: transparent;
+    /* background-color: aqua; */
+    box-sizing: border-box;
+    height: 85vh;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Mallanna', sans-serif;
+    line-height: 55px;
+    height: 82vh;
+    /* background-color: red; */
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+button {
+    background-color: transparent;
+    border-radius: 30px;
+    font-size: 33px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.circle-container {
+    height: 3vh;
+    /* background-color: aqua; */
+    text-align: center;
+}
+
+i {
+    margin-right: 5px;
+}
+
+.circle-selected {
+    background-color: white;
+    border-radius: 50px;
+}
