@@ -114,6 +114,7 @@ button {
         display: flex;
         align-items: center;
         justify-content: flex-end; /* Alinha o ícone do sanduíche à direita */
+        display: block;
         font-size: 30px;
     }
 }

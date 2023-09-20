@@ -11,6 +11,8 @@ import { EventosComponent } from './eventos/eventos.component';
 import { BannerComponent } from './eventos/banner/banner.component';
 import { ResultadoComponent } from './eventos/resultado/resultado.component';
 import { EventoComponent } from './eventos/resultado/evento/evento.component';
+import { CategoriasComponent } from './home/categorias/categorias.component';
+import { CategoriaComponent } from './home/categorias/categoria/categoria.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { EventoComponent } from './eventos/resultado/evento/evento.component';
     BannerComponent,
     ResultadoComponent,
     EventoComponent,
+    CategoriasComponent,
+    CategoriaComponent,
   ],
   imports: [
     BrowserModule,
