@@ -5,8 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { CarrosselComponent } from './home/carrossel/carrossel.component';
-import { HeaderComponent } from './home/carrossel/header/header.component';
+import { HeaderComponent } from './header/header.component';
 import { DestaqueComponent } from './home/carrossel/destaque/destaque.component';
+import { EventosComponent } from './eventos/eventos.component';
+import { BannerComponent } from './eventos/banner/banner.component';
+import { ResultadoComponent } from './eventos/resultado/resultado.component';
+import { EventoComponent } from './eventos/resultado/evento/evento.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +19,10 @@ import { DestaqueComponent } from './home/carrossel/destaque/destaque.component'
     CarrosselComponent,
     HeaderComponent,
     DestaqueComponent,
+    EventosComponent,
+    BannerComponent,
+    ResultadoComponent,
+    EventoComponent,
   ],
   imports: [
     BrowserModule,
