@@ -3,7 +3,7 @@
     background-image: url(../../../assets/matue.jpeg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; /* Exibe a imagem no tamanho original */
     z-index: 1; /* Certifique-se de que a .container esteja na frente do ::before */
 }
 
@@ -25,6 +25,6 @@
 
 @media screen and (max-width: 768px) {
     .container {
-        background-image: url(../../../assets/matue.jpeg);   
+        background-image: url(../../../assets/matue3.jpeg);   
     }
 }
