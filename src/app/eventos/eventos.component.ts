@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./eventos.component.css']
 })
 export class EventosComponent {
-
+  // isBlackText: boolean = true; // Defina a propriedade com base na lógica desejada
+  // isBlackText: boolean = true; // Defina a propriedade com base na lógica desejada
 }

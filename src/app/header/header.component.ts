@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'pro-header',
@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-
+  @Input() isWhiteText: boolean = true;
+  @Input() isBlackText: boolean = false; // Adicione a propriedade isBlackText
 }

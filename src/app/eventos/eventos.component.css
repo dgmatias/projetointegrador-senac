@@ -22,3 +22,4 @@
 .opacity {
     position: relative; /* Certifique-se de que a .opacity esteja na frente da ::before */
 }
+

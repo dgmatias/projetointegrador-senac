@@ -11,4 +11,13 @@ h2 {
 .eventos-container {
     display: flex;
     justify-content: center;
+    /* background-color: aqua; */
+}
+
+.card-container {
+    max-width: 1400px;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
 }
