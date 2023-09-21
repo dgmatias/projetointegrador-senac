@@ -36,6 +36,7 @@ nav {
 }
 
 .left-container {
+  /* background-color: aqua; */
   gap: 30px;
   min-height: 20px;
   display: flex;

@@ -13,6 +13,9 @@ import { ResultadoComponent } from './eventos/resultado/resultado.component';
 import { EventoComponent } from './eventos/resultado/evento/evento.component';
 import { CategoriasComponent } from './home/categorias/categorias.component';
 import { CategoriaComponent } from './home/categorias/categoria/categoria.component';
+import { EventoInfoComponent } from './evento-info/evento-info.component';
+import { BannerInfoComponent } from './evento-info/banner-info/banner-info.component';
+import { InfoComponent } from './evento-info/info/info.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +30,9 @@ import { CategoriaComponent } from './home/categorias/categoria/categoria.compon
     EventoComponent,
     CategoriasComponent,
     CategoriaComponent,
+    EventoInfoComponent,
+    BannerInfoComponent,
+    InfoComponent
   ],
   imports: [
     BrowserModule,
