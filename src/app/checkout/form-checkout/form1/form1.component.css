@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    justify-content: center;
+    min-height: 40vh;
+    /* background-color: aqua; */
+    padding: 8rem;
+}
+
+form {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    width: 100%;
+}
+
+label {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.label-container {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* background-color: aqua; */
+}
+
+.end-container {
+    /* background-color: aqua; */
+    display: flex;
+    gap: 50px;
+}
+
+.submit-container {
+    text-align: center;
+}
+
+input {
+    border-radius: 20px;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.cpf-input, .numero-input {
+    width: 400px;
+}
+
+.label-container, .end-container {
+    margin-bottom: 1rem;
+}
+
+.submit {
+    background-color: #02CB3A;
+    color: white;
+    padding: 1rem;
+    font-size: 23px;
+    width: 250px;
+    border: none;
+    border-radius: 22px;
+}

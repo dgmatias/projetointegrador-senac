@@ -1,0 +1,12 @@
+button {
+    background-color: transparent;
+    font-size: 20px;
+    padding: 2rem;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    width: 250px;
+}
+
+.form-container {
+    border: 1px solid black;
+}

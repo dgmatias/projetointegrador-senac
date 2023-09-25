@@ -16,6 +16,12 @@ import { CategoriaComponent } from './home/categorias/categoria/categoria.compon
 import { EventoInfoComponent } from './evento-info/evento-info.component';
 import { BannerInfoComponent } from './evento-info/banner-info/banner-info.component';
 import { InfoComponent } from './evento-info/info/info.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { HeaderCheckoutComponent } from './checkout/header-checkout/header-checkout.component';
+import { TableCheckoutComponent } from './checkout/table-checkout/table-checkout.component';
+import { FormCheckoutComponent } from './checkout/form-checkout/form-checkout.component';
+import { Form1Component } from './checkout/form-checkout/form1/form1.component';
+
 
 @NgModule({
   declarations: [
@@ -32,7 +38,12 @@ import { InfoComponent } from './evento-info/info/info.component';
     CategoriaComponent,
     EventoInfoComponent,
     BannerInfoComponent,
-    InfoComponent
+    InfoComponent,
+    CheckoutComponent,
+    HeaderCheckoutComponent,
+    TableCheckoutComponent,
+    FormCheckoutComponent,
+    Form1Component,
   ],
   imports: [
     BrowserModule,
