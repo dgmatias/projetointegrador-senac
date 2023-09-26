@@ -1,0 +1,34 @@
+.container {
+    /* background-color: aqua; */
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+button {
+    font-size: 28px;
+    border-radius: 30px;
+    width: 227px;
+}
+
+.todos {
+    background-color: #656565;
+    color: white;
+    position: fixed;
+    left: 1485px;
+}
+
+.usados {
+    background-color: #F1F1F1;
+    position: relative;
+    color: black;
+    
+   
+}
