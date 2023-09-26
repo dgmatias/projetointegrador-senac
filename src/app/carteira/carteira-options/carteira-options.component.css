@@ -21,8 +21,8 @@ button {
 .todos {
     background-color: #656565;
     color: white;
-    position: fixed;
-    left: 1485px;
+    position: absolute;
+    left: 68%;
 }
 
 .usados {

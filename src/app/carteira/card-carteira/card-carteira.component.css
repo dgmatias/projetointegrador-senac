@@ -1,0 +1,48 @@
+.container {
+    /* background-color: aqua; */
+    width: 250px;
+    box-sizing: border-box;
+}
+
+.img-banner {
+    /* display: block; */
+    /* margin: auto; */
+    width: 250px;
+    height: 250px;
+    border-radius: 34px;
+}
+
+.img-icon {
+    width: 70px;
+    width: 70px;
+}
+
+.span-container {
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.information-container {
+    
+    display: flex;
+    gap: 30px;
+    width: 250px;
+    align-items: center;
+}
+
+h2 {
+    font-size: 27px;
+}
+
+span {
+    text-align: center;
+}
+
+span, h3 {
+    font-size: 17px;
+}
+
+h3 {
+    font-size: 16px;
+}
