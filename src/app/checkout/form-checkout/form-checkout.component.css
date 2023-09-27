@@ -1,12 +1,36 @@
+.button-container{
+    display: flex;
+}
+
 button {
     background-color: transparent;
-    font-size: 20px;
+    font-size: 1.5vw;
     padding: 2rem;
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
-    width: 250px;
+    width: 18vw;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .form-container {
     border: 1px solid black;
 }
+
+@media screen and (max-width: 768px) {
+
+    button {
+        box-sizing: border-box;
+        height: 10vw;
+        padding: 0.4rem;
+        font-size: 2.7vw;
+        width: 23vw;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+    }
+
+}
+
