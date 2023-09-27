@@ -4,10 +4,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* font-size: 35px; */
 }
 
 a {
     color: white;
-    font-size: 35px;
+    font-size: 5vh
 }
 

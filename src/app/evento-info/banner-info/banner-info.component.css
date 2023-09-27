@@ -2,10 +2,12 @@
     height: 40vh;
     background-image: url(../../../assets/matue2.jpeg);
     background-repeat: no-repeat;
+    /* background-color: aqua; */
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
+
 }
 
 .blur-background {
@@ -26,6 +28,7 @@
     background-size: cover;
     background-position: center;
     width: 500px;
+    /* width: 100%; */
     background-color: transparent; /* Deixe o fundo do card transparente para mostrar o desfoque por trás */
     display: flex;
     align-items: end;
@@ -43,8 +46,27 @@ button {
     cursor: pointer;
     font-size: 20px;
     width: 200px;
+    text-align: center;
 }
 
 a {
     color: white;
+}
+
+@media screen and (max-width: 600px) {
+
+    .container {
+        background-image: none;
+        /* background-color: aqua; */
+        /* width: 100%; */
+
+    }
+
+    .card {
+        width: 100%;
+        /* display: none; */
+        /* background-color: aqua; */
+        /* background-image: none; */
+    }
+
 }

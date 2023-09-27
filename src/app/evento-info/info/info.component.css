@@ -75,12 +75,12 @@ h1 {
 
 .secondary-left-container {
     /* background-color: aqua; */
-    height: 150px;
+    min-height: 150px;
     box-sizing: border-box;
 }
 
 .secondary-right-container {
-    height: 150px;
+    min-height: 150px;
     box-sizing: border-box;
     /* background-color: red; */
 }
@@ -99,4 +99,50 @@ strong {
 
 iframe {
     border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .primary {
+        gap: 50px;
+        text-align: center;
+        width: 300px;
+        /* background-color: aqua; */
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .primary h2 {
+        font-size: 18px;
+    }
+    
+    .primary h3 {
+        font-size: 15px;
+    }
+    
+    .primary h4 {
+        font-size: 25px;
+    }
+
+    .secondary {
+        /* align-items: center; */
+        min-height: 300px;
+        gap: 50px;
+    }
+
+    .secondary h2 {
+        font-size: 25px;
+    }
+
+    .secondary p {
+        font-size: 15px;
+    }
+
+    iframe {
+        width: 350px;
+        height: 350px;
+    }
+
 }
