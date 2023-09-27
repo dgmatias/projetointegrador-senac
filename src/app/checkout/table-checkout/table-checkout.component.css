@@ -14,7 +14,7 @@ table {
 th {
     /* color: rebeccapurple; */
     text-align: center;
-    font-size: 20px;
+    font-size: 1.7vw;
     /* background-color: whitesmoke; */
     color: #515151;
     padding: 1rem;
@@ -24,7 +24,8 @@ th {
 }
 
 td {
-    font-size: 20px;
+    font-size: 1.7vw;
+    color: aqua;
     text-align: center;
     color: black;
     padding-top: 3rem;
@@ -35,13 +36,31 @@ td {
 }
 
 .qntd {
-    font-size: 30px;
+    font-size: 1.7vw;
     margin-left: 5px;
     margin-right: 5px;
 }
 
 img {
-    height: 144px;
-    width: 119px;
+    height: 10vw;
+    width: 10vw;
     border-radius: 20px;
 }
+
+/* Media query para dispositivos menores (por exemplo, smartphones) */
+@media screen and (max-width: 768px) {
+    th, td, .qntd {
+        font-size: 3.3vw; /* Tamanho da fonte ajustado para dispositivos menores */
+    }
+
+    img {
+        height: 20vw;
+        width: 20vw; /* Tamanho da imagem ajustado para dispositivos menores */
+    }
+}
+
+
+
+
+
+
