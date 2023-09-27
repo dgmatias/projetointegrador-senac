@@ -1,5 +1,12 @@
+.container {
+    /* background-color: red; */
+    width: 72vw;
+}
+
 .button-container{
     display: flex;
+    /* background-color: aqua; */
+    width: 72vw;
 }
 
 button {
@@ -9,15 +16,18 @@ button {
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
     width: 18vw;
+    /* background-color: yellow; */
     height: 5vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: none;
 }
 
 
 .form-container {
     border: 1px solid black;
+    /* width: 100%; */
 }
 
 @media screen and (max-width: 768px) {
@@ -26,8 +36,8 @@ button {
         box-sizing: border-box;
         height: 10vw;
         padding: 0.4rem;
-        font-size: 2.7vw;
-        width: 23vw;
+        font-size: 2.6vw;
+        width: 30vw;
         border-top-right-radius: 30px;
         border-top-left-radius: 30px;
     }

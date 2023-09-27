@@ -15,7 +15,7 @@ form {
 }
 
 label {
-    font-size: 20px;
+    font-size: 1.5vw;
     line-height: 30px;
 }
 
@@ -44,7 +44,7 @@ input {
 }
 
 .cpf-input, .numero-input {
-    width: 400px;
+    width: 20vw;
 }
 
 .label-container, .end-container {
@@ -55,8 +55,53 @@ input {
     background-color: #02CB3A;
     color: white;
     padding: 1rem;
-    font-size: 23px;
-    width: 250px;
+    font-size: 2vw;
+    width: 15vw;
     border: none;
     border-radius: 22px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        padding: 1rem;
+    }
+
+    label {
+        font-size: 3.5vw;
+    }
+
+    
+    .cpf-input, .numero-input {
+         /* background-color: red;  */
+        width: 30vw;
+        padding: 0.5rem;
+    }
+    
+    input {
+        /* background-color: aqua; */
+        padding: 0.5rem;
+        width: 30vw;
+        /* width: 20vw; */
+    }
+
+    .end-container {
+        /* background-color: azure; */
+        display: block;
+    }
+
+
+    input::placeholder {
+        /* color: aquamarine; */
+        font-size: 3vw;
+    }
+
+    .submit {
+        /* height: 10vw; */
+        width: 30vw;
+        font-size: 4.3vw;
+        padding: 0.5rem;
+    }
+
 }
