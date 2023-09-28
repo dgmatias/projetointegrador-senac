@@ -28,7 +28,7 @@ nav {
 }
 
 .item-header {
-  font-size: 28px;
+  font-size: 20px;
 }
 
 .no-border {
@@ -91,7 +91,7 @@ button {
   display: none;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 768px) {
   .left-container {
     flex-grow: 1;
     justify-content: center;

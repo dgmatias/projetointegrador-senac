@@ -5,12 +5,7 @@
     <div class="categoria-container">
 
         <div class="card-container">
-            <pro-categoria></pro-categoria>
-            <pro-categoria></pro-categoria>
-            <pro-categoria></pro-categoria>
-            <pro-categoria></pro-categoria>
-            <pro-categoria></pro-categoria>
-            <pro-categoria></pro-categoria>
+            <pro-categoria *ngFor="let c of categorias" [categoria]="c"></pro-categoria>
         </div>
 
     </div>

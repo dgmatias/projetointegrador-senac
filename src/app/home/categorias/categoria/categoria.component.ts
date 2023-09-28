@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Categoria} from 'src/app/model/categoria-model';
 
 @Component({
   selector: 'pro-categoria',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./categoria.component.css']
 })
 export class CategoriaComponent {
+
+  @Input() categoria!: Categoria;
 
 }
