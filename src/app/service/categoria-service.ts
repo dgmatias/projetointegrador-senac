@@ -10,11 +10,16 @@ export class CategoriaService {
 
     constructor(private http: HttpClient) {}
 
-    listarCategorias(): Observable<Categoria[]> {
-
-        
+    listarCategorias(): Observable<Categoria[]> {        
         console.log(`${PRO_API}/projeto-backend/rest/categoria/listar`);
         return this.http.get<Categoria[]>(`${PRO_API}/projeto-backend/rest/categoria/listar`);
+    }
+
+    
+    listarCategoriaPorId(id: number): Observable<Categoria> {
+        console.log("dentro da função id: " + id);
+        console.log(`${PRO_API}/projeto-backend/rest/categoria/categorias/${id}`);
+        return this.http.get<Categoria>(`${PRO_API}/projeto-backend/rest/categoria/categorias/${id}`);
     }
 
 }
