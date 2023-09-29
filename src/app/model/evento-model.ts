@@ -1,6 +1,7 @@
 import { Time } from "@angular/common";
 
 export interface Evento {
+    id: number;
     img_src: string,
     titulo: string,
     data_evento: string,

@@ -1,6 +1,6 @@
 <div class="container">
 
-    <div> <h1> Matuê</h1> </div>
+    <div> <h1> {{evento.titulo}}</h1> </div>
 
     <div class="card-container">
 
@@ -9,11 +9,11 @@
             <div class="primary-left-container">
 
                 <div>
-                    <h2> 10/09/2023</h2>
+                    <h2> {{evento.data_evento}}</h2>
                 </div>
 
                 <div>
-                    <h3>22:00</h3>
+                    <h3>{{evento.hora}}</h3>
                     <hr>
                 </div>
 
@@ -30,12 +30,12 @@
                 </div>
 
                 <div>
-                    <h3> Itaborái, Rj </h3>
+                    <h3> Itaborái, {{evento.estado}} </h3>
                     <hr>
                 </div>
 
                 <div>
-                    <h4>  Rua Alfredo Chavez</h4>
+                    <h4>  {{evento.rua}}</h4>
                 </div>
 
             </div>
@@ -47,13 +47,13 @@
             <div class="secondary-left-container">
 
                 <div> <h2> Descrição do evento </h2> </div>
-                <div> <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolore numquam laudantium. Aspernatur asperiores dolore magnam modi maxime libero eius tempora unde! Repellendus omnis hic repellat, a fugiat eaque dolore! </p> </div>
+                <div> <p> {{evento.descricao}}</p> </div>
             </div>
 
             <div class="secondary-right-container">
 
                 <div> <h2> Política do evento </h2> </div>
-                <div> <p> <strong> Cancelamento de pedidos pagos </strong> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sit rem cum! Id, quisquam eius maiores nostrum modi non esse? Debitis, assumenda. Fugiat, provident. Deserunt repellat ipsa qui nisi debitis! </p> </div>
+                <div> <p> {{evento.politica}}</p> </div>
 
             </div>
 

@@ -10,7 +10,7 @@ import { AnunciarEventoComponent } from './anunciar-evento/anunciar-evento.compo
 const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'eventos/:id', component: EventosComponent},
-  {path: 'evento-info', component: EventoInfoComponent},
+  {path: 'evento-info/:id', component: EventoInfoComponent},
   {path: 'checkout', component: CheckoutComponent},
   {path: 'carteira', component: CarteiraComponent},
   {path: 'anunciar-evento', component: AnunciarEventoComponent},

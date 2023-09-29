@@ -13,6 +13,12 @@ export class EventoService {
         return this.http.get<Evento[]>( `${PRO_API}/projeto-backend/rest/evento/listar`);
     }
 
+    listarEventoPorId(id: number): Observable<Evento> {
+        console.log("dentro da função id: " + id);
+        console.log(`${PRO_API}/projeto-backend/rest/evento/eventos/${id}`);
+        return this.http.get<Evento>(`${PRO_API}/projeto-backend/rest/evento/eventos/${id}`);
+    }
+
     adicionarEvento(evento: Evento) {
         return this.http.post(`${PRO_API}/projeto-backend/rest/evento/`, evento);
     }

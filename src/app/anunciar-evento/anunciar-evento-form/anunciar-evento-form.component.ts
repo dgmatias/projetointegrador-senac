@@ -12,6 +12,7 @@ export class AnunciarEventoFormComponent {
   constructor(private service: EventoService) {}
 
   evento: Evento = {
+    id: 0,
     img_src: '',
     titulo: '',
     data_evento: '', // Inicialize com uma string vazia
