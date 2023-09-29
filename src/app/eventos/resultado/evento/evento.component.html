@@ -1,9 +1,11 @@
-<div class="container">
+<div *ngIf="evento.categoria_id == id" class="container">
 
 
     <div>
         <img src="assets/{{evento.img_src}}" alt="img">
     </div>
+
+    {{id}}
 
     <div class="data-container">
         <h3> {{evento.titulo}}</h3>

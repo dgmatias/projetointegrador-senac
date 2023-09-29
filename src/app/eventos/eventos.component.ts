@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 export class EventosComponent {
   // isBlackText: boolean = true; // Defina a propriedade com base na lógica desejada
   // isBlackText: boolean = true; // Defina a propriedade com base na lógica desejada
+
 }

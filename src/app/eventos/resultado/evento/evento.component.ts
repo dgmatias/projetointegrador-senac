@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { Evento } from 'src/app/model/evento-model';
 
 @Component({
@@ -7,5 +8,12 @@ import { Evento } from 'src/app/model/evento-model';
   styleUrls: ['./evento.component.css']
 })
 export class EventoComponent {
+  
   @Input() evento!: Evento;
+  @Input()id!: number;
+  
+
+  ngOnInit() {
+    console.log("id" + this.id);
+  }
 }
