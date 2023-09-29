@@ -5,6 +5,7 @@ import { EventosComponent } from './eventos/eventos.component';
 import { EventoInfoComponent } from './evento-info/evento-info.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { CarteiraComponent } from './carteira/carteira.component';
+import { AnunciarEventoComponent } from './anunciar-evento/anunciar-evento.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -12,6 +13,7 @@ const routes: Routes = [
   {path: 'evento-info', component: EventoInfoComponent},
   {path: 'checkout', component: CheckoutComponent},
   {path: 'carteira', component: CarteiraComponent},
+  {path: 'anunciar-evento', component: AnunciarEventoComponent},
 ];
 
 @NgModule({

@@ -28,6 +28,10 @@ import { CardCarteiraComponent } from './carteira/card-carteira/card-carteira.co
 import { CategoriaService } from './service/categoria-service';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { EventoService } from './service/evento-service';
+import { AnunciarEventoComponent } from './anunciar-evento/anunciar-evento.component';
+import { AnunciarEventoHeaderComponent } from './anunciar-evento/anunciar-evento-header/anunciar-evento-header.component';
+import { AnunciarEventoFormComponent } from './anunciar-evento/anunciar-evento-form/anunciar-evento-form.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -55,11 +59,15 @@ import { EventoService } from './service/evento-service';
     CarteiraHeaderComponent,
     CarteiraOptionsComponent,
     CardCarteiraComponent,
+    AnunciarEventoComponent,
+    AnunciarEventoHeaderComponent,
+    AnunciarEventoFormComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
   ],
   providers: [CategoriaService, EventoService],
   bootstrap: [AppComponent]
