@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Evento } from 'src/app/model/evento-model';
+import { EventoService } from 'src/app/service/evento-service';
 
 @Component({
   selector: 'pro-carrossel',
@@ -7,7 +9,11 @@ import { Component } from '@angular/core';
 })
 export class CarrosselComponent {
 
-  constructor() {}
+  evento!: Evento;
+
+  constructor(private service: EventoService) {
+    this.service.listarEventosRandom().subscribe(dados => this.evento = dados);
+  }
 
   alterarImagem() {
     setInterval(()=>{
@@ -16,9 +22,7 @@ export class CarrosselComponent {
   }
 
   ngOnInit() {
-
     this.alterarImagem();
-
   }
 
 }

@@ -13,6 +13,10 @@ export class EventoService {
         return this.http.get<Evento[]>( `${PRO_API}/projeto-backend/rest/evento/listar`);
     }
 
+    listarEventosRandom(): Observable<Evento> {
+        return this.http.get<Evento>(`${PRO_API}//projeto-backend/rest/evento/listarRandom`);
+    }
+
     listarEventoPorId(id: number): Observable<Evento> {
         console.log("dentro da função id: " + id);
         console.log(`${PRO_API}/projeto-backend/rest/evento/eventos/${id}`);
