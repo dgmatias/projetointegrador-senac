@@ -25,6 +25,9 @@ import { CarteiraComponent } from './carteira/carteira.component';
 import { CarteiraHeaderComponent } from './carteira/carteira-header/carteira-header.component';
 import { CarteiraOptionsComponent } from './carteira/carteira-options/carteira-options.component';
 import { CardCarteiraComponent } from './carteira/card-carteira/card-carteira.component';
+import { CategoriaService } from './service/categoria-service';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { EventoService } from './service/evento-service';
 
 
 @NgModule({
@@ -55,9 +58,10 @@ import { CardCarteiraComponent } from './carteira/card-carteira/card-carteira.co
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [CategoriaService, EventoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

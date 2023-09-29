@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Categoria } from 'src/app/model/categoria-model';
+import { CategoriaService } from 'src/app/service/categoria-service';
 
 @Component({
   selector: 'pro-categorias',
@@ -7,5 +8,10 @@ import { Categoria } from 'src/app/model/categoria-model';
   styleUrls: ['./categorias.component.css']
 })
 export class CategoriasComponent {
-    categorias: Categoria[] = [{id: 1, categoria: "shows de rap", descricao: "descrição shows de rap", img: "assets/categoria.jpg"}]
+    categorias: Categoria[] = []
+
+    constructor(private service: CategoriaService) {
+      this.service.listarCategorias().subscribe(dados => this.categorias = dados);
+    }
+    
 }

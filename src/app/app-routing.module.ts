@@ -8,7 +8,7 @@ import { CarteiraComponent } from './carteira/carteira.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
-  {path: 'eventos', component: EventosComponent},
+  {path: 'eventos/:id', component: EventosComponent},
   {path: 'evento-info', component: EventoInfoComponent},
   {path: 'checkout', component: CheckoutComponent},
   {path: 'carteira', component: CarteiraComponent},
